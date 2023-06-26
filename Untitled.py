@@ -2,19 +2,16 @@
 
 import streamlit as st
 
-st.write("Hello World")
 
 
 def home_page():
-    streamlit run Home_Page
+    st.write("This is home page")
     
 def mode1():
-    st.markdown("Mode 1")
-    st.sidebar.markdown("Mode 1")
+    st.write("This is Mode 1")
     
 def mode2():
-    st.markdown("Mode 2")
-    st.sidebar.markdown("Mode 2")
+    st.write("This is Mode 2")
 
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
