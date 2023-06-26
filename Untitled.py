@@ -11,12 +11,18 @@ def home_page():
     
 def mode1():
     st.header("Mode 1")
+    st.write("Select if you have the name and phone number of the investor")
     st.text_input('Investor Name')
     st.text_input('Investor Phone Number')
     st.text_input('Sourcer Name')
     
 def mode2():
     st.header("Mode 2")
+    st.write("Select if you have the name, phone number, and desired location of the investor")
+    st.text_input('Investor Name')
+    st.text_input('Investor Phone Number')
+    st.text_input('Desired Location')
+    st.text_input('Sourcer Name')
 
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
