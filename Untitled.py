@@ -17,9 +17,9 @@ add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
     ("Home", "Mode 1", "Mode 2")
 )
-if add_selectbox = 'Mode 1':
+if add_selectbox == 'Mode 1':
     mode1()
-elif add_selectbox = 'Mode 2':
+elif add_selectbox == 'Mode 2':
     mode2()
 else:
     home_page()
