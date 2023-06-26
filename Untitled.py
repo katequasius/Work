@@ -1,6 +1,7 @@
 # Created with Pyto
 
 import streamlit as st
+import Mode2Page
 
 st.write("Hello World")
 
