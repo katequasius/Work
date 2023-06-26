@@ -1,14 +1,15 @@
 # Created with Pyto
 
 import streamlit as st
-
+from PIL import Image
 
 st.set_page_config(page_title="Investor Reachout")
 def home_page():
     st.header("Home Page")
     st.write("Mode 1: Select if you have the name and phone number of the investor")
     st.write("Mode 2: Select if you have the name, phone number, and desired location of the investor")
-    st.image('https://images.app.goo.gl/51tJDZF7chN6BrB2A')
+    image = Image.open('ProgressLogo.PNG')
+    st.image(image)
     
 def mode1():
     st.header("Mode 1")
