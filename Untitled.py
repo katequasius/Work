@@ -6,6 +6,7 @@ import streamlit as st
 
 def home_page():
     st.write("This is home page")
+    st.header("Home Page")
     
 def mode1():
     st.write("This is Mode 1")
