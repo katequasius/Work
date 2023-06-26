@@ -7,3 +7,5 @@ add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
     ("Home", "Mode 1", "Mode 2")
 )
+
+streamlit run Home_Page.py
