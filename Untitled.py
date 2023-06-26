@@ -1,7 +1,7 @@
 # Created with Pyto
 
 import streamlit as st
-import Mode2Page
+import Mode2Page.py as m2
 
 st.write("Hello World")
 
@@ -19,9 +19,9 @@ def mode2():
     st.sidebar.markdown("Mode 2")
     
 page_names_to_funcs = {
-	"Home": Mode2Page.py,
-    "Mode 1": Mode2Page.py,
-    "Mode 2": Mode2Page.py,
+	"Home": m2,
+    "Mode 1": m2,
+    "Mode 2": m2,
     }
 
 add_selectbox = st.sidebar.selectbox(
