@@ -9,7 +9,7 @@ def home_page():
     st.write("Mode 1: Select if you have the name and phone number of the investor")
     st.write("Mode 2: Select if you have the name, phone number, and desired location of the investor")
     image = Image.open('ProgressLogo.PNG')
-    st.image(image, width = none)
+    st.image(image, caption=None, width=None)
     
 def mode1():
     st.header("Mode 1")
