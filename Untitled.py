@@ -28,4 +28,4 @@ add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
     page_names_to_funcs.keys()
 )
-page_names_to_funcs[selected_page]()
+page_names_to_funcs[add_selectbox]()
