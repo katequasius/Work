@@ -15,7 +15,6 @@ def mode1():
     st.header("Mode 1")
     st.write("Select if you have the name and phone number of the investor")
     st.text_input('Investor Name')
-    st.text_area('test')
     st.text_input('Investor Phone Number')
     st.text_input('Sourcer Name')
     
