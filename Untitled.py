@@ -5,7 +5,7 @@ import streamlit as st
 st.write("Hello World")
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
-    page_names_to_funcs.keys())
+    page_names_to_funcs.keys()
 )
 
 def home_page():
