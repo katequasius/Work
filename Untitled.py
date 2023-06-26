@@ -1,14 +1,12 @@
 # Created with Pyto
 
 import streamlit as st
-import Mode2Page as m2
 
 st.write("Hello World")
 
 
 def home_page():
-    st.markdown("Home")
-    st.sidebar.markdown("Home")
+    streamlit run Home_Page
     
 def mode1():
     st.markdown("Mode 1")
@@ -17,15 +15,14 @@ def mode1():
 def mode2():
     st.markdown("Mode 2")
     st.sidebar.markdown("Mode 2")
-    
-page_names_to_funcs = {
-	"Home": m2,
-    "Mode 1": m2,
-    "Mode 2": m2,
-    }
 
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
-    page_names_to_funcs.keys()
+    ("Home", "Mode 1", "Mode 2")
 )
-page_names_to_funcs[add_selectbox]()
+if add_selectbox = 'Mode 1':
+    mode1()
+elif add_selectbox = 'Mode 2':
+    mode2()
+else:
+    home_page()
