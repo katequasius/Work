@@ -8,4 +8,4 @@ add_selectbox = st.sidebar.selectbox(
     ("Home", "Mode 1", "Mode 2")
 )
 
-streamlit run Home_Page.py
+streamlit run Home_page.py
