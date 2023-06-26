@@ -18,9 +18,9 @@ def mode2():
     st.sidebar.markdown("Mode 2")
     
 page_names_to_funcs = {
-	"Home": Mode2Page,
-    "Mode 1": Mode2Page,
-    "Mode 2": Mode2Page,
+	"Home": Mode2Page.py,
+    "Mode 1": Mode2Page.py,
+    "Mode 2": Mode2Page.py,
     }
 
 add_selectbox = st.sidebar.selectbox(
