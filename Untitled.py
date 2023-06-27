@@ -38,7 +38,7 @@ def mode2():
 def checkNumber(num):
     check = 0
     for i in num:
-        if not i == "1" or i == "2" or i == "3" or i == "4" or i == "5" or i == "6" or i == "7" or i == "8" or i == "9" or i == "0":
+        if not i == "1" or not i == "2" or not i == "3" or not i == "4" or not i == "5" or not i == "6" or not i == "7" or not i == "8" or not i == "9" or not i == "0":
             check = 1
     return check
 
