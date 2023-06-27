@@ -14,7 +14,7 @@ def home_page():
 def mode1():
     st.header("Mode 1")
     st.write("Select if you have the name and phone number of the investor")
-    st.text_input('Investor Name')
+    investor = st.text_input('Investor Name')
     st.text_input('Investor Phone Number')
     st.text_input('Sourcer Name')
     if st.button('Submit'):
