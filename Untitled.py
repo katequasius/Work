@@ -10,7 +10,7 @@ def home_page():
     st.header("Mode 1:")
     st.write("Select if you have the name and phone number of the investor")
     st.header("Mode 2:")
-    st.write("Select if you have the name, phone number, and desired location of the investor.")
+    st.write("Select if you have the name, phone number, and desired location of the investor")
     image = Image.open('ProgressLogo.PNG')
     st.image(image, caption=None, width=2, use_column_width=True)
     
@@ -29,7 +29,7 @@ def mode1():
     
 def mode2():
     st.header("Mode 2")
-    st.write("Use if you have the **name**, **phone number**, and **desired location** of the investor")
+    st.write("Use if you have the **name**, **phone number**, and **desired location** of the investor.")
     investor = st.text_input('Investor Name')
     number = st.text_input('Investor Phone Number *(No spaces or special characters)*')
     location = st.text_input('Desired Location')
