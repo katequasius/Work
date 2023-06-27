@@ -17,6 +17,7 @@ def mode1():
     st.text_input('Investor Name')
     st.text_input('Investor Phone Number')
     st.text_input('Sourcer Name')
+    st.button('test')
     
 def mode2():
     st.header("Mode 2")
