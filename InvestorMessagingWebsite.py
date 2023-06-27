@@ -27,7 +27,7 @@ def mode1():
         if checkNumber(number):
             st.write("Invalid number. Do not include spaces or special characters.")
         else:
-            webbrowser.open_new_tab(text)
+            st.markdown(text, unsafe_allow_html=True)
 
 #Mode 2 setup
 def mode2():
