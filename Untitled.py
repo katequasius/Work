@@ -6,6 +6,7 @@ from PIL import Image
 st.set_page_config(page_title="Investor Reachout")
 def home_page():
     st.header("Home Page")
+    st.title("Use the dropdown on the left-hand side to pick which mode of contact you would like to use. Descriptions of each mode are found below.")
     st.write("Mode 1: Select if you have the name and phone number of the investor")
     st.write("Mode 2: Select if you have the name, phone number, and desired location of the investor")
     image = Image.open('ProgressLogo.PNG')
