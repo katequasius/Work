@@ -52,7 +52,7 @@ def checkNumber(num):
         return False
 
 add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
+    "Mode of contact selection:",
     ("Home", "Mode 1", "Mode 2")
 )
 if add_selectbox == 'Mode 1':
