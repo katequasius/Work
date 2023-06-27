@@ -1,8 +1,8 @@
-# Created with Pyto
 
 import streamlit as st
 from PIL import Image
 
+#Home page setup
 st.set_page_config(page_title="Investor Reachout")
 def home_page():
     st.title("Home Page")
@@ -13,7 +13,8 @@ def home_page():
     st.write("Select if you have the name, phone number, and desired location of the investor")
     image = Image.open('ProgressLogo.PNG')
     st.image(image, caption=None, width=2, use_column_width=True)
-    
+
+#Mode 1 setup
 def mode1():
     st.header("Mode 1")
     st.write("Use if you have the **name** and **phone number** of the investor.")
@@ -26,7 +27,8 @@ def mode1():
             st.write("Invalid number. Do not include spaces or special characters.")
         else:
             st.write(text)
-    
+
+#Mode 2 setup
 def mode2():
     st.header("Mode 2")
     st.write("Use if you have the **name**, **phone number**, and **desired location** of the investor.")
@@ -41,6 +43,7 @@ def mode2():
         else:
             st.write(text)
 
+#Phone number check to make sure there are no spaces or special characters
 def checkNumber(num):
     check = 0
     for i in num:
@@ -51,6 +54,7 @@ def checkNumber(num):
     else: 
         return False
 
+#Drop down box on the left-hand side
 add_selectbox = st.sidebar.selectbox(
     "Mode of contact selection:",
     ("Home", "Mode 1", "Mode 2")
