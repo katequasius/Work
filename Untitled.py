@@ -15,19 +15,20 @@ def mode1():
     st.header("Mode 1")
     st.write("Select if you have the name and phone number of the investor")
     investor = st.text_input('Investor Name')
-    st.text_input('Investor Phone Number')
-    st.text_input('Sourcer Name')
+    number = st.text_input('Investor Phone Number')
+    sourcer = st.text_input('Sourcer Name')
     if st.button('Submit'):
-        st.write("message", investor)
+        st.write("https://wa.me/", number, "?text=test", investor, "and ", sourcer)
     
 def mode2():
     st.header("Mode 2")
     st.write("Select if you have the name, phone number, and desired location of the investor")
-    st.text_input('Investor Name')
-    st.text_input('Investor Phone Number')
-    st.text_input('Desired Location')
-    st.text_input('Sourcer Name')
-    st.button('Submit')
+    investor = st.text_input('Investor Name')
+    number = st.text_input('Investor Phone Number')
+    location = st.text_input('Desired Location')
+    sourcer = st.text_input('Sourcer Name')
+    if st.button('Submit'):
+        
 
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
