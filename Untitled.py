@@ -17,7 +17,7 @@ def mode1():
     st.text_input('Investor Name')
     st.text_input('Investor Phone Number')
     st.text_input('Sourcer Name')
-    st.button('test')
+    st.button('Submit')
     
 def mode2():
     st.header("Mode 2")
@@ -26,6 +26,7 @@ def mode2():
     st.text_input('Investor Phone Number')
     st.text_input('Desired Location')
     st.text_input('Sourcer Name')
+    st.button('Submit')
 
 add_selectbox = st.sidebar.selectbox(
     "How would you like to be contacted?",
