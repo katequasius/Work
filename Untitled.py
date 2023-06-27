@@ -37,8 +37,8 @@ def mode2():
 
 def checkNumber(num):
     check = 0
-    for i in num:
-        if (char)i < 48 or (char)i > 57:
+    for i in range(0, len(num)):
+        if num.charAt(i) < 48 or num.charAt(i) > 57:
             check = 1
     return check
         
