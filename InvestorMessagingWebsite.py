@@ -53,7 +53,8 @@ def checkNumber(num):
         return True
     else: 
         return False
-
+        
+#Replaces space character with a '%20' to make the text work for the URL
 def checkSpaces(str):
     new = ""
     for i in str:
