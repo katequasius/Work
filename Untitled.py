@@ -17,7 +17,7 @@ def mode1():
     investor = st.text_input('Investor Name')
     number = st.text_input('Investor Phone Number')
     sourcer = st.text_input('Sourcer Name')
-    text = "https://wa.me/" + number + "?text=Hello%20" + investor + ", \nNice to be in contact, I'm from Progress Property, we find HMO properties for company let on behalf of our clients helping them grow their portfolios. \nWe have been in contact with you before and we're interested in seeing what new business we can do! \nI look forward to hearing back from you.\nThanks \n\n" + sourcer + "/nProgress Property Services Ltd\nhttps://progresspropertyservices.co"
+    text = "https://wa.me/" + number + "?text=Hello%20" + investor + ", \nNice%20to%20be%20in%20contact,%20I'm%20from%20Progress%20Property,%20we%20find%20HMO%20properties%20for%20company%20let%20on%20behalf%20of%20our%20clients%20helping%20them%20grow%20their%20portfolios.%20\nWe%20have%20been%20in%20contact%20with%20you%20before%20and%20we're%20interested%20in%20seeing%20what%20new%20business%20we%20can%20do!%20\nI%20look%20forward%20to%20hearing%20back%20from%20you.\nThanks%20\n\n" + sourcer + "/nProgress%20Property%20Services%20Ltd\nhttps://progresspropertyservices.co"
     if st.button('Submit'):
         st.write(text)
     
