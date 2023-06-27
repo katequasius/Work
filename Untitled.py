@@ -28,6 +28,7 @@ def mode2():
     location = st.text_input('Desired Location')
     sourcer = st.text_input('Sourcer Name')
     if st.button('Submit'):
+        st.write("")
         
 
 add_selectbox = st.sidebar.selectbox(
