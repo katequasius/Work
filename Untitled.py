@@ -6,7 +6,8 @@ from PIL import Image
 st.set_page_config(page_title="Investor Reachout")
 def home_page():
     st.title("Home Page")
-    st.write("Use the dropdown on the left-hand side to pick which mode of contact you would like to use. Descriptions of each mode are found below.")
+    st.write("Use the dropdown on the left-hand side to pick which mode of contact you would like to use.")
+    st.write("Descriptions of each mode are found below.")
     st.header("Mode 1:")
     st.write("Select if you have the name and phone number of the investor")
     st.header("Mode 2:")
