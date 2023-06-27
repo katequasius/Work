@@ -16,7 +16,7 @@ def home_page():
     
 def mode1():
     st.header("Mode 1")
-    st.write("Select if you have the name and phone number of the investor")
+    st.write("Use if you have the **name** and **phone number** of the investor")
     investor = st.text_input('Investor Name')
     number = st.text_input('Investor Phone Number')
     sourcer = st.text_input('Sourcer Name')
@@ -29,7 +29,7 @@ def mode1():
     
 def mode2():
     st.header("Mode 2")
-    st.write("Select if you have the name, phone number, and desired location of the investor")
+    st.write("Use if you have the **name**, **phone number**, and **desired location** of the investor")
     investor = st.text_input('Investor Name')
     number = st.text_input('Investor Phone Number')
     location = st.text_input('Desired Location')
