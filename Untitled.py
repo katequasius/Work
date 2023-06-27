@@ -17,8 +17,9 @@ def mode1():
     investor = st.text_input('Investor Name')
     number = st.text_input('Investor Phone Number')
     sourcer = st.text_input('Sourcer Name')
+    text = "https://wa.me/" + number + "?text=test" + investor + "and" + sourcer
     if st.button('Submit'):
-        st.write("https://wa.me/", number, "?text=test", investor, "and", sourcer)
+        st.write(text)
     
 def mode2():
     st.header("Mode 2")
