@@ -54,6 +54,11 @@ def checkNumber(num):
     else: 
         return False
 
+def checkSpaces(str):
+    for i in str:
+        if 
+    
+
 #Drop down box on the left-hand side
 add_selectbox = st.sidebar.selectbox(
     "Mode of contact selection:",
