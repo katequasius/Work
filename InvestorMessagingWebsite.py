@@ -39,6 +39,8 @@ def messageSelect(sourcer, investor, countryCode, number):
                 
     
 def home_page():
+    check = 0
+    
     st.title("Investor Contact Form")
     st.write("Fields marked with a * are required")
     investor = checkSpaces(st.text_input('Investor Name *'))
