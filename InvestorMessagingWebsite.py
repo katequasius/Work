@@ -28,14 +28,14 @@ def checkSpaces(str):
 def home_page():
     st.title("Investor Contact Form")
     st.write("Fields marked with a * are required")
-    investor = checkSpaces(st.text_input('Investor Name'))
+    investor = checkSpaces(st.text_input('Investor Name *'))
     col1, col2 = st.columns([0.4, 1.6])
     with col1:
-        countryCode = st.text_input('Investor Country Code')
+        countryCode = st.text_input('Investor Country Code *')
     with col2:
-        number = st.text_input('Investor Phone Number *(No spaces or special characters)*')
+        number = st.text_input('Investor Phone Number * *(No spaces or special characters)*')
     location = checkSpaces(st.text_input('Desired Location'))
-    sourcer = checkSpaces(st.text_input('Sourcer Name'))
+    sourcer = checkSpaces(st.text_input('Sourcer Name *'))
     #Error Checking
     if st.button('Click to generate WhatsApp Message'):
         if countryCode == "":
