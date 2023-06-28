@@ -50,6 +50,8 @@ def home_page():
     location = checkSpaces(st.text_input('Desired Location'))
     sourcer = checkSpaces(st.text_input('Sourcer Name *'))
     #Error Checking
+    if "clicked" not in st.session_state:
+        st.session_state.clicked = False
     if st.button('Click to generate WhatsApp Message') or st.session_state["clicked"]:
         st.session_state["clicked"] = True
         if countryCode == "":
