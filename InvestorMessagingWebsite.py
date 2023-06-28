@@ -27,7 +27,7 @@ def mode1():
         if checkNumber(number):
             st.write("Invalid number. Do not include spaces or special characters.")
         else:
-            st.markdown(text, unsafe_allow_html=True)
+            st.write('Click to open WhatsApp [here] (text)')
 
 #Mode 2 setup
 def mode2():
@@ -42,7 +42,7 @@ def mode2():
         if checkNumber(number):
             st.write("Invalid number. Do not include spaces or special characters.")
         else:
-            st.markdown(text, unsafe_allow_html=True)
+            st.write('Click to open WhatsApp [here] (text)')
 
 #Phone number check to make sure there are no spaces or special characters
 def checkNumber(num):
