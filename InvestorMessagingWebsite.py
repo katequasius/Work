@@ -50,7 +50,7 @@ def home_page():
             else:
                 c1, c2, c3 = st.columns(3)
                 c1 = st.write("Hello [Investor Name],  \nNice to be in contact, I'm from Progress Property, we find HMO properties for company let on behalf of our clients helping them grow their portfolios.  \nWe have been in contact with you before and we're interested in seeing what new business we can do!  \n Look forward to hearing back from you. Thanks.  \n[Sourcer Name]  \nProgress Property Services Ltd  \nhttps://progresspropertyservices.co")
-                c2 = st.write("")
+                c2 = st.write("**Message 2**  \nHello, [Investor]  \nNice to be in contact.  \n\nI'm representing Progress Property Services Ltd - specialists in finding high yielding company let opportunities.  \n\nWe came across your company and we are interested in what business we can do!  \n\nI look forward to hearing from you. Thanks,  \n\n[Your Name] | Business Development Consultant  \nProgress Property Services Ltd  \nprogresspropertyservices.co")
                 c3 = st.write("")
                 # st.write("WhatsApp Message [Link](https://wa.me/" + countryCode + number + "?text=Hello%20" + investor + ",%0A%0ANice%20to%20be%20in%20contact,%20I'm%20from%20Progress%20Property,%20we%20find%20HMO%20properties%20for%20company%20let%20on%20behalf%20of%20our%20clients%20helping%20them%20grow%20their%20portfolios.%20%0AWe%20have%20been%20in%20contact%20with%20you%20before%20and%20we're%20interested%20in%20seeing%20what%20new%20business%20we%20can%20do!%20%0A%0AI%20look%20forward%20to%20hearing%20back%20from%20you.%20Thanks.%20%0A%0A" + sourcer + "%0AProgress%20Property%20Services%20Ltd%0Ahttps://progresspropertyservices.co)")
                 
