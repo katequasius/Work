@@ -54,7 +54,7 @@ def home_page():
         st.session_state.clicked = False
     if st.button('Click to generate WhatsApp Message') or st.session_state["clicked"]:
         st.session_state["clicked"] = True
-        if investor == "";
+        if investor == "":
             st.write("Error. Need to include the investor's name.")
         elif countryCode == "":
             st.write("Error. Need to include a country code.")
