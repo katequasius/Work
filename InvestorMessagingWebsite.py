@@ -27,7 +27,7 @@ def mode1():
         if checkNumber(number):
             st.write("Invalid number. Do not include spaces or special characters.")
         else:
-            st.write('Click to open WhatsApp [here] (text)')
+            st.write('Click this [link](text)')
 
 #Mode 2 setup
 def mode2():
