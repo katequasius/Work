@@ -50,7 +50,7 @@ def home_page():
     location = checkSpaces(st.text_input('Desired Location'))
     sourcer = checkSpaces(st.text_input('Sourcer Name *'))
     #Error Checking
-    if st.button('Click to generate WhatsApp Message'):
+    while st.button('Click to generate WhatsApp Message'):
         if countryCode == "":
             st.write("Error. Need to include a country code.")
         elif checkNumber(number):
