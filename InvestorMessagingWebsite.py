@@ -50,7 +50,7 @@ def home_page():
             else:
                 c1, c2, c3 = st.columns(3)
                 with c1:
-                    st.write("Hello [Investor Name],  \nNice to be in contact, I'm from Progress Property, we find HMO properties for company let on behalf of our clients helping them grow their portfolios.  \nWe have been in contact with you before and we're interested in seeing what new business we can do!  \n Look forward to hearing back from you. Thanks.  \n[Sourcer Name]  \nProgress Property Services Ltd  \nhttps://progresspropertyservices.co")
+                    st.write("**Message 1**  \nHello [Investor Name],  \nNice to be in contact, I'm from Progress Property, we find HMO properties for company let on behalf of our clients helping them grow their portfolios.  \n\nWe have been in contact with you before and we're interested in seeing what new business we can do!  \n\n Look forward to hearing back from you. Thanks.  \n\n[Sourcer Name]  \nProgress Property Services Ltd  \nhttps://progresspropertyservices.co")
                 with c2:
                     st.write("**Message 2**  \nHello, [Investor]  \nNice to be in contact.  \n\nI'm representing Progress Property Services Ltd - specialists in finding high yielding company let opportunities.  \n\nWe came across your company and we are interested in what business we can do!  \n\nI look forward to hearing from you. Thanks,  \n\n[Your Name] | Business Development Consultant  \nProgress Property Services Ltd  \nprogresspropertyservices.co")
                 with c3:
