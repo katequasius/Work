@@ -20,7 +20,7 @@ def mode1():
     st.header("Mode 1")
     st.write("Use if you have the **name** and **phone number** of the investor.")
     investor = checkSpaces(st.text_input('Investor Name'))
-    countryCode = st.text_input('Country Code *(No spaces or special characters)*')
+    countryCode = st.text_input('Investor Country Code *(No spaces or special characters)*')
     number = st.text_input('Investor Phone Number *(No spaces or special characters)*')
     sourcer = checkSpaces(st.text_input('Sourcer Name'))
     #Error Checking
@@ -39,7 +39,7 @@ def mode2():
     st.header("Mode 2")
     st.write("Use if you have the **name**, **phone number**, and **desired location** of the investor.")
     investor = checkSpaces(st.text_input('Investor Name'))
-    countryCode = st.text_input('Country Code *(No spaces or special characters)*')
+    countryCode = st.text_input('Investor Country Code *(No spaces or special characters)*')
     number = st.text_input('Investor Phone Number *(No spaces or special characters)*')
     location = checkSpaces(st.text_input('Desired Location'))
     sourcer = checkSpaces(st.text_input('Sourcer Name'))
