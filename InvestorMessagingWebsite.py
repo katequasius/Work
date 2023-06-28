@@ -87,7 +87,7 @@ def checkSpaces(str):
 #Drop down box on the left-hand side
 add_selectbox = st.sidebar.selectbox(
     "Mode of contact selection:",
-    ("Home", "Mode 1 (Location Unknown)", "Mode 2 (Location Known)")
+    ("Home", "Mode 1", "Mode 2")
 )
 if add_selectbox == 'Mode 1':
     mode1()
