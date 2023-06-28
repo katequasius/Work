@@ -26,7 +26,7 @@ def mode1():
     if st.button('Click to generate WhatsApp Message'):
         if countryCode == "":
             st.write("Error. Need to include a country code.")
-        if checkNumber(number):
+        elif checkNumber(number):
             st.write("Invalid number. Do not include spaces or special characters.")
         elif checkNumber(countryCode):
             st.write("Invalid number. Do not include spaces or special characters.")
