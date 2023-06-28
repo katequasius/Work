@@ -20,7 +20,7 @@ def mode1():
     st.header("Mode 1")
     st.write("Use if you have the **name** and **phone number** of the investor.")
     investor = checkSpaces(st.text_input('Investor Name'))
-    col1, col2 = st.columns([0.3, 1.7])
+    col1, col2 = st.columns([0.4, 1.6])
     with col1:
         countryCode = st.text_input('Investor Country Code')
     with col2:
