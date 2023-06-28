@@ -20,8 +20,11 @@ def mode1():
     st.header("Mode 1")
     st.write("Use if you have the **name** and **phone number** of the investor.")
     investor = checkSpaces(st.text_input('Investor Name'))
-    countryCode = st.text_input('Investor Country Code *(No spaces or special characters)*')
-    number = st.text_input('Investor Phone Number *(No spaces or special characters)*')
+    col1, col2 = st.columns(2)
+    with col1:
+        countryCode = st.text_input('Investor Country Code')
+    with col2:
+        number = st.text_input('Investor Phone Number')
     sourcer = checkSpaces(st.text_input('Sourcer Name'))
     #Error Checking
     if st.button('Click to generate WhatsApp Message'):
