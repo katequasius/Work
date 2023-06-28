@@ -5,6 +5,7 @@ from PIL import Image
 
 #Home page setup
 st.set_page_config(page_title="Investor Reachout")
+home_page()
 def home_page():
     st.title("Investor Contact Form")
     st.write("Fields marked with a * are required")
