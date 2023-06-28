@@ -5,7 +5,6 @@ from PIL import Image
 
 #Home page setup
 st.set_page_config(page_title="Investor Reachout")
-home_page()
 def home_page():
     st.title("Investor Contact Form")
     st.write("Fields marked with a * are required")
@@ -31,7 +30,7 @@ def home_page():
             else:
                 st.write("WhatsApp Message [Link](https://wa.me/" + countryCode + number + "?text=Hello%20" + investor + ",%0A%0ANice%20to%20be%20in%20contact,%20I'm%20from%20Progress%20Property,%20we%20find%20HMO%20properties%20for%20company%20let%20on%20behalf%20of%20our%20clients%20helping%20them%20grow%20their%20portfolios.%20%0AWe%20have%20been%20in%20contact%20with%20you%20before%20and%20we're%20interested%20in%20seeing%20what%20new%20business%20we%20can%20do!%20%0A%0AI%20look%20forward%20to%20hearing%20back%20from%20you.%20Thanks.%20%0A%0A" + sourcer + "%0AProgress%20Property%20Services%20Ltd%0Ahttps://progresspropertyservices.co)")
 
-    
+home_page()
 
 #Mode 1 setup
 # def mode1():
