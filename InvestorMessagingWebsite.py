@@ -29,7 +29,7 @@ def home_page():
     st.title("Investor Contact Form")
     st.write("Fields marked with a * are required")
     investor = checkSpaces(st.text_input('Investor Name *'))
-    col1, col2 = st.columns([0.36, 1.64])
+    col1, col2 = st.columns([0.42, 1.58])
     with col1:
         countryCode = st.text_input('Investor Country Code *')
     with col2:
