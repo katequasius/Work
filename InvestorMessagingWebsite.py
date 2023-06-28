@@ -24,7 +24,7 @@ def mode1():
     number = st.text_input('Investor Phone Number *(No spaces or special characters)*')
     sourcer = checkSpaces(st.text_input('Sourcer Name'))
     if st.button('Click to generate WhatsApp Message'):
-        if countryCode == None:
+        if countryCode == "":
             st.write("Error. Need to include a country code.")
         if checkNumber(number):
             st.write("Invalid number. Do not include spaces or special characters.")
