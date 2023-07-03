@@ -68,7 +68,7 @@ def home_page():
             st.write("Invalid number. Do not include spaces or special characters in country code.")
         elif sourcer == "":
             st.write("Error. Need to include the sourcer's name.")
-        elif location == "" and locationOption == "Yes";
+        elif location == "" and locationOption == "Yes"
             st.write("Error. Need to include a location.")
 
         else:
