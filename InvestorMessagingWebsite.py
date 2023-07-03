@@ -48,7 +48,7 @@ def home_page():
     with col2:
         number = st.text_input('Investor Phone Number * *(No spaces or special characters)*')
     sourcer = checkSpaces(st.text_input('Sourcer Name *'))
-    locationOption = st.selectbox("Is there a desired location?", ("Yes", "No"))
+    locationOption = st.selectbox("Is there a desired location?", ("No", "Yes"))
     if locationOption == "Yes":
         location = st.text_input('Desired Location *')
     else:
