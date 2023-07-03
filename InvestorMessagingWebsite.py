@@ -47,8 +47,12 @@ def home_page():
         countryCode = st.text_input('Investor Country Code *')
     with col2:
         number = st.text_input('Investor Phone Number * *(No spaces or special characters)*')
-    location = checkSpaces(st.text_input('Desired Location'))
     sourcer = checkSpaces(st.text_input('Sourcer Name *'))
+    locationOption = st.selectbox("Is there a desired location?", ("Yes", "No"))
+    if locationOption == "Yes":
+        location = st.text_input('Desired Location *')
+    else:
+        location = ""
     #Error Checking
     if "clicked" not in st.session_state:
         st.session_state.clicked = False
@@ -64,6 +68,8 @@ def home_page():
             st.write("Invalid number. Do not include spaces or special characters in country code.")
         elif sourcer == "":
             st.write("Error. Need to include the sourcer's name.")
+        elif location == "" and locationOption == "Yes";
+            st.write("Error. Need to include a location.")
 
         else:
             if location != "":
